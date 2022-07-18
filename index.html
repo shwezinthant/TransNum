@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trans Num</title>
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css"
+    />
+    <script src="bootstrap-5.2.0-beta1-dist/js/jquery.min.js"></script>
+    <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font.css" />
+    <script src="custom1.js"></script>
+  </head>
+  <body class="container-fluid">
+    <div class="row">
+      <div
+        class="col-md-4 offset-md-4 offset-sm-1 col-sm-10 center p-md-4 p-sm-5 bg-success rounded"
+      >
+        <h1 class="num text-center">Trans Num</h1>
+        <form name="myForm">
+          <p>Type here</p>
+
+          <div class="input-group mb-1">
+            <input
+              id="mm"
+              type="text"
+              class="form-control"
+              aria-describedby="basic-addon2"
+            />
+            <div id="validationServer03Feedback" class="invalid-feedback">
+              Please provide a valid number.
+            </div>
+          </div>
+
+          <br />
+          <button
+            type="submit"
+            class="btn btn-outline-dark w-50"
+            onclick="myfunction(event)"
+          >
+            Change
+          </button>
+          <br /><br />
+
+          <div class="input-group mb-1">
+            <input
+              id="result"
+              type="text"
+              readonly
+              class="form-control"
+              aria-describedby="basic-addon2"
+            />
+          </div>
+        </form>
+        <br />
+      </div>
+    </div>
+  </body>
+</html>
